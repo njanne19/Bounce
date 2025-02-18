@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.10)
 
 # Define the project name and version 
 project(Bounce VERSION 0.1.0 LANGUAGES CXX)
+message(STATUS "CMAKE_SOURCE_DIR is: ${CMAKE_SOURCE_DIR}")
+
 
 # Set the C++ standard 
 set(CMAKE_CXX_STANDARD 17) 
